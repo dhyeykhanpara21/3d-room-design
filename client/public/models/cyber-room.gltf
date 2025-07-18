@@ -1,0 +1,272 @@
+{
+  "asset": {
+    "generator": "CyberVault Room Generator",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "CyberRoom",
+      "nodes": [0, 1, 2, 3, 4, 5, 6]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "SecurityDoor",
+      "mesh": 0,
+      "translation": [0, 2, -8]
+    },
+    {
+      "name": "Whiteboard",
+      "mesh": 1,
+      "translation": [-6, 3, -4],
+      "rotation": [0, 0.7071, 0, 0.7071]
+    },
+    {
+      "name": "PCSetup",
+      "mesh": 2,
+      "translation": [6, 1, -2]
+    },
+    {
+      "name": "CertificateShelf",
+      "mesh": 3,
+      "translation": [3, 4, -7]
+    },
+    {
+      "name": "ServerRack",
+      "mesh": 4,
+      "translation": [-4, 1, 2]
+    },
+    {
+      "name": "Terminal",
+      "mesh": 5,
+      "translation": [-2, 2, 4]
+    },
+    {
+      "name": "RoomStructure",
+      "mesh": 6,
+      "translation": [0, 0, 0]
+    }
+  ],
+  "meshes": [
+    {
+      "name": "SecurityDoor",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "Whiteboard",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1
+        }
+      ]
+    },
+    {
+      "name": "PCSetup",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 8,
+            "NORMAL": 9,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 2
+        }
+      ]
+    },
+    {
+      "name": "CertificateShelf",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 12,
+            "NORMAL": 13,
+            "TEXCOORD_0": 14
+          },
+          "indices": 15,
+          "material": 3
+        }
+      ]
+    },
+    {
+      "name": "ServerRack",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 16,
+            "NORMAL": 17,
+            "TEXCOORD_0": 18
+          },
+          "indices": 19,
+          "material": 4
+        }
+      ]
+    },
+    {
+      "name": "Terminal",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 20,
+            "NORMAL": 21,
+            "TEXCOORD_0": 22
+          },
+          "indices": 23,
+          "material": 5
+        }
+      ]
+    },
+    {
+      "name": "RoomStructure",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 24,
+            "NORMAL": 25,
+            "TEXCOORD_0": 26
+          },
+          "indices": 27,
+          "material": 6
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "SecurityDoorMaterial",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [0.1, 0.1, 0.1, 1.0],
+        "metallicFactor": 0.9,
+        "roughnessFactor": 0.1
+      },
+      "emissiveFactor": [0.0, 1.0, 0.0]
+    },
+    {
+      "name": "WhiteboardMaterial",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [0.9, 0.9, 0.9, 1.0],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.8
+      },
+      "emissiveFactor": [0.0, 0.4, 1.0]
+    },
+    {
+      "name": "PCSetupMaterial",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [0.0, 0.0, 0.0, 1.0],
+        "metallicFactor": 0.7,
+        "roughnessFactor": 0.3
+      },
+      "emissiveFactor": [0.0, 1.0, 0.0]
+    },
+    {
+      "name": "CertificateShelfMaterial",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [0.3, 0.3, 0.3, 1.0],
+        "metallicFactor": 0.8,
+        "roughnessFactor": 0.2
+      },
+      "emissiveFactor": [0.0, 0.4, 1.0]
+    },
+    {
+      "name": "ServerRackMaterial",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [0.2, 0.2, 0.2, 1.0],
+        "metallicFactor": 0.9,
+        "roughnessFactor": 0.1
+      },
+      "emissiveFactor": [1.0, 0.0, 0.0]
+    },
+    {
+      "name": "TerminalMaterial",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [0.0, 0.0, 0.0, 1.0],
+        "metallicFactor": 0.5,
+        "roughnessFactor": 0.4
+      },
+      "emissiveFactor": [0.0, 1.0, 0.0]
+    },
+    {
+      "name": "RoomMaterial",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [0.05, 0.05, 0.05, 1.0],
+        "metallicFactor": 0.8,
+        "roughnessFactor": 0.2
+      },
+      "emissiveFactor": [0.0, 0.1, 0.0]
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3",
+      "max": [1.5, 2.0, 0.15],
+      "min": [-1.5, 0.0, -0.15]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5123,
+      "count": 36,
+      "type": "SCALAR"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 288
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 288,
+      "byteLength": 288
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 576,
+      "byteLength": 192
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 768,
+      "byteLength": 72
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 840,
+      "uri": "data:application/octet-stream;base64,PLACEHOLDER_BUFFER_DATA"
+    }
+  ]
+}
